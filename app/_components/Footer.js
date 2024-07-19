@@ -40,7 +40,7 @@ const FooterMenu = () => {
         });
     },[]);
     return (
-        <footer className="w-full h-[80px] flex flex-col sticky bottom-0">
+        <footer className="w-full h-[80px] flex flex-col sticky bottom-0 bg-[#F5F5FF]">
             <hr className="border-t-2"/>
             <div className="w-full h-[80px] flex flex-row items-center overflow-x-auto">
                 <div className="flex-grow-0 flex-shrink-0 basis-auto h-[80%] w-[150px] bg-[#436AB8] text-white text-[17px] flex justify-center items-center mx-[20px] rounded-[20px] cursor-pointer" id="tableboard">Tableu De Board</div>
