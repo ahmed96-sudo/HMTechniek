@@ -1,10 +1,10 @@
 import { NextResponse } from "next/server";
 import sql from 'mssql';
 const config = {
-    user: 'metaflex_HMTechniek',
-    password: 'MetaFlex159635741!',
-    server: 'sql.bsite.net\\MSSQL2016',
-    database: 'metaflex_HMTechniek',
+    user: process.env.DATABASE_USER,
+    password: process.env.DATABASE_PASS,
+    server: process.env.DATABASE_SERVER,
+    database: process.env.DATABASE_DB,
     options: {
         trustedconnection: true,
         trustServerCertificate: true
